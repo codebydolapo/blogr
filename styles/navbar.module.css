@@ -1,0 +1,70 @@
+.navbar {
+  width: 100vw;
+  height: 70px;
+  color: white;
+  background-color: rgb(41, 1, 78);
+  /* border: 1px solid white; */
+  /* position: fixed;
+  top: 0; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.logo {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+.nameLogo{
+    width: 130px;
+    height: inherit;
+    /* border: 1px solid white; */
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.name{
+    font-size: 35px;
+}
+
+.searchBar{
+  height: 50%;
+  width: 50%;
+  /* border: 1px solid white; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+  background: black;
+  border-radius: 20px;
+}
+
+.searchBar >input{
+  height: 100%;
+  background: none;
+  width: 95%;
+  border: 0;
+  color: white;
+  /* border: 1px solid white; */
+  outline: 0;
+}
+
+
+.iconDiv{
+  width: 180px;
+  height: inherit;
+  /* border: 1px solid white; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.socials{
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+}

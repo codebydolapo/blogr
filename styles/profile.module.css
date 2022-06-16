@@ -1,9 +1,7 @@
-.container {
-  padding: 0 ;
-}
 
-.main {
-  min-height: 100vh;
+.main{
+	min-height: 100vh;
+	width: 100vw;
   /* padding: 4rem 0; */
   /* margin-top: 30px; */
   flex: 1;
@@ -13,8 +11,4 @@
   align-items: flex-start;
   background: rgb(0, 1, 31);
   height: auto;
-}
-
-.text{
-  color: white;
 }

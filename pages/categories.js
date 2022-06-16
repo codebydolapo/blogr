@@ -1,10 +1,11 @@
 import Head from "next/head";
+//import Link from "next/link"
 import Image from "next/image";
-import styles from "../styles/Home.module.css";
+import styles from "../styles/categories.module.css";
 import Navbar from "../components/Navbar";
 import Sidebar from '../components/Sidebar'
-import MainBody from '../components/MainBody'
-export default function Home() {
+import CategoryMain from '../components/CategoryMain'
+export default function Categories() {
   return (
     <div className={styles.container}>
       <Head>
@@ -15,7 +16,7 @@ export default function Home() {
       <Navbar />
       <main className={styles.main}>
         <Sidebar />
-        <MainBody />
+        <CategoryMain/>
       </main>
     </div>
   );

@@ -1,0 +1,8 @@
+.filler{
+	width: 20%;
+    min-height: 100vh;
+    background: rgb(1, 8, 41);
+	position: sticky;
+	margin-bottom: 0;
+	left: 0;
+}

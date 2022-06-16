@@ -1,0 +1,109 @@
+.sectionc{
+	min-height: 150vh;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	color: white;
+}
+
+.keyFeatures{
+	height: 35%;
+	width: 100%;
+	padding: 20px 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: left;
+	justify-content: space-around;
+}
+
+.keyFeatures > h1{
+	width: 100%;
+	font-size: 25px;
+	color: rgba(7, 182, 7);
+	margin-left: 70px;
+}
+
+.keyFeatureDetails{
+	width: 100%;
+	height: 80%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.keyFeatureDetails > h1{
+	width: 45%;
+	height: 100%;
+	font-size: 40px;
+}
+
+.keyFeatureDetails > img{
+	width: 25%;
+	height: auto;
+	border-radius: 50%;
+}
+
+.moreFeatures{
+	height: 60%;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.subFeatures{
+	height: 20%;
+	width: 40%;
+	display: flex;
+}
+
+.imageDiv{
+	height: 100%;
+	width: 20%;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.imageDiv > img{
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+}
+
+.detailDiv{
+	height: 100%;
+	width: 80%
+}
+
+.detailDiv > p{
+	font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

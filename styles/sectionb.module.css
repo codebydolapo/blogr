@@ -1,0 +1,108 @@
+.sectionb{
+	width: 100%;
+	min-height: 120vh;
+	height: 120vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.review{
+	height: 40%;
+	width: 90%;
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-start;
+	padding: 20px 10px;
+	background: rgba(255, 255, 255, 0.3);
+	border-radius: 10px;
+}
+
+.reviewImage{
+	width: 15%;
+	height: auto;
+	border-radius: 50%;
+}
+
+.reviewText{
+	width: 80%;
+	height: 100%;
+	color: white;
+	
+}
+
+.reviewText > p{
+	font-size: 15px;
+}
+
+.reviewText > h1 > b{
+	font-size: 20px;
+}
+
+.reviewText > h1{
+	font-size: 17px;
+	font-weight: lighter;
+}
+
+.reviewText > button{
+	width: 150px;
+	height: 40px;
+	border-radius: 20px;
+	background: rgba(7, 182, 7);
+	border: none;
+	color: white;
+	margin-top: 20px;
+}
+
+.sectionbExp{
+	height: 55%;
+	width: 90%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: row;
+}
+
+.sectionbExp > div {
+	height: 90%;
+	width: 30%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: column;
+	text-align: left;
+	padding: 0 10px;
+}
+
+.columnImage{
+	width: auto;
+	height: 90px;
+	border-radius: 50%;
+}
+
+
+.columnHeader{
+	font-size: 15px;
+	color: rgba(7, 182, 1);
+}
+
+.columnParagraph{
+	font-size: 12px;
+	color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

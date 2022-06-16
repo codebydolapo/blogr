@@ -1,0 +1,40 @@
+.categoryMain{
+	max-height: 100vh;
+	height: 100vh;
+	width: 80%;
+    background: inherit;
+    display: flex;
+	flex-direction: row;
+	flex-wrap:wrap;
+    justify-content: space-around;
+    align-items: center;
+    overflow: scroll !important;
+	padding-top: 30px;
+}
+
+.categoryDiv{
+	width: 28%;
+	height: 150px;
+	color: white;
+	margin: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	border-radius: 10px;
+}
+
+.categoryImage{
+	width: 100%;
+	height: auto;
+	border-radius: inherit;
+	transition: all 500ms ease;
+}
+
+.categoryImage:hover{
+	transform: scale(1.05);
+}
+
+.categoryHeader{
+	font-size: 12px;
+}

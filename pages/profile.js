@@ -1,10 +1,10 @@
 import Head from "next/head";
 import Image from "next/image";
-import styles from "../styles/Home.module.css";
+import styles from "../styles/profile.module.css";
 import Navbar from "../components/Navbar";
-import Sidebar from '../components/Sidebar'
-import MainBody from '../components/MainBody'
-export default function Home() {
+import Sidebar from '../components/Sidebar';
+import ProfileMain from '../components/ProfileMain';
+export default function Profile() {
   return (
     <div className={styles.container}>
       <Head>
@@ -14,8 +14,8 @@ export default function Home() {
       </Head>
       <Navbar />
       <main className={styles.main}>
-        <Sidebar />
-        <MainBody />
+        <Sidebar/>
+        <ProfileMain/>
       </main>
     </div>
   );
